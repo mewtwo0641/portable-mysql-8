@@ -31,7 +31,7 @@ namespace PortableMySQL8
     {
         public static bool TranslateNullableBool(this bool? _bool)
         {
-            return _bool == true ? true : false;
+            return _bool == true;
         }
     }
 }

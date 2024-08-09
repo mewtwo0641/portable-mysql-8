@@ -396,8 +396,7 @@ namespace PortableMySQL8
 
         private void StopProcessCheckTimer()
         {
-            if (ProcessCheckTimer != null)
-                ProcessCheckTimer.Stop();
+            ProcessCheckTimer?.Stop();
         }
 
         private void ProcessCheckTimer_Tick(object sender, EventArgs e)
