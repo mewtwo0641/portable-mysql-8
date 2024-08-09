@@ -203,7 +203,7 @@ namespace PortableMySQL8
                 {
                     bool grantsSet = SQL.SetUserGrantsToDatabase(user, server, Config.MySQL.Port, Config.MySQL.RootPass, db);
 
-                    if(!grantsSet)
+                    if (!grantsSet)
                         creationStatus += $"Set grants failed on '{db}'\r\n";
                 }
 

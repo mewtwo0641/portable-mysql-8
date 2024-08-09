@@ -41,7 +41,7 @@ namespace PortableMySQL8
 
         public SQLCommands()
         {
-            
+
         }
 
         private bool Connect(string user, string server, int port, string password)
@@ -70,7 +70,7 @@ namespace PortableMySQL8
                 Connection.Close();
             }
 
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
